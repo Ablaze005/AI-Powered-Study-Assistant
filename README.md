@@ -48,17 +48,77 @@ Code
 
 ---
 
-## 🔧 Setup Instructions
+## 🛠️ Installation & Setup
 
-### 1️⃣ Clone the repository
+Follow these steps to run the AI-Powered Study Assistant on your local machine.
+
+---
+
+### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/Ablaze005/AI-Powered-Study-Assistant.git
 cd AI-Powered-Study-Assistant
-2️⃣ Install dependencies
+
+2️⃣ Create a Virtual Environment (optional but recommended)
+bash
+python -m venv venv
+Activate it:
+
+Windows:
+
+bash
+venv\Scripts\activate
+macOS/Linux:
+
+bash
+source venv/bin/activate
+3️⃣ Install Dependencies
 bash
 pip install -r requirements.txt
-3️⃣ Add your Gemini API key
-Create a .env file:
+4️⃣ Add Your Gemini API Key
+Create a .env file in the project folder:
+
+Code
+GEMINI_API_KEY=your_api_key_here
+GEMINI_MODEL_NAME=gemini-flash-latest
+Make sure your .env file is NOT committed to GitHub.
+
+5️⃣ Run the App
+bash
+streamlit run app.py
+Your browser will open automatically at:
+
+Code
+http://localhost:8501
+6️⃣ Start Using the App 🎉
+You can now:
+
+Summarize text
+
+Generate quizzes
+
+Create flashcards
+
+Get ELI5 explanations
+
+Extract key points
+
+All powered by Gemini Flash.
+
+Code
+
+---
+
+If you want, I can also help you add:
+
+✨ A “Screenshots” section  
+✨ A “Demo GIF” section  
+✨ A “Tech Stack Badges” section  
+✨ A “Contributors” section  
+✨ A “Version History” section  
+
+Just tell me what you want next.
 
 Code
 GEMINI_API_KEY=your_api_key_here

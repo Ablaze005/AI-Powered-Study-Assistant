@@ -110,15 +110,6 @@ Code
 
 ---
 
-If you want, I can also help you add:
-
-✨ A “Screenshots” section  
-✨ A “Demo GIF” section  
-✨ A “Tech Stack Badges” section  
-✨ A “Contributors” section  
-✨ A “Version History” section  
-
-Just tell me what you want next.
 
 Code
 GEMINI_API_KEY=your_api_key_here
